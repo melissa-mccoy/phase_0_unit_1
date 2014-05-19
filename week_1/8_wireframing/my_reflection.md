@@ -11,3 +11,12 @@
 * Which parts of the challenge did you find tedious?
 
 <!-- Add your reflection here. Remove the comment markers -->
+
+1. I learned what wireframes are and the process of creating them with the user in mind.
+2. It was very fun! I unfortunately spent too much time  fooling around with how I wanted the site to look which eventually became frustrating.
+3. I was wondering why I hadn't hear of wireframing before.
+4. Concepts make sense.
+5. Yes.
+6. Fairly confident.
+7. I liked trying to draw the wireframes.
+8. I found writing out the problem each website solves somewhat tedious.
