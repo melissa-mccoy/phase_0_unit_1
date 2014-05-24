@@ -1,7 +1,12 @@
 # U1.W2: Chrome Dev Tools Challenge Reflection
 
 * Describe the Document Object Model? What about it makes sense to you? What doesn't? What seems good and bad about it?
+	Answer: It makes sense to me that the DOM is a compilation of objects that represent one's webpage and this allows you to actually do things with/to the webpage dynamically. Some of the terminology used to describe the DOM doesn't quite make sense to me - it spoke of "Dom interfaces" and gave examples like HTMLFormElement interface and HTMLElement interface. Given I understand DOM to be an interface itself, it seems strange to me that it's referring to tables and elemens on a webpage as interfaces as well...is everything on a webpage called an interface? I also didn't understand the discussion around nodes, elements, and DOM data types in general. It sounds like every object within the DOM is called a node...so do these other names for nodes exist just to help us logically understand what's going on?
 * How did using Chrome Web Tools to look at your site and a wordpress.com site compare?
+	Answer: The WP-based blog had a lot more JavaScript (I guess that's kind of obvious). It also did something interesting in that it used <aside> elements and <header> element (specific to HTML5 I thought) for the heading part and <div>s for the rest of the block elements (used <HTML5). Looking at it kind of made me want to just use a WP template for my blog and stop with all this coding nonsense - haha jk.
 * Did you find Chrome Web Tools fun, helpful, or a pain to work with?
+	Answer: Very cool and helpful! It would be nice to develop in this environment all the time - why don't we? The connection between HTML and CSS was very helpful.
 * Did you have an "aha" moments or were any concepts solidified?
+	Answer: Getting a little intro to Javascript and how it's incorporated to the HTML code was nice to see and helped me understand it better. Thinking about all the optimization techniques and using Dev Tools to look at load time made me feel like a real developer (ie not just coding something that works for me but coding something that would work for a client/in the real world)!
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
+	Answer: A few google searches on DOM interfaces. Not worth your time.
