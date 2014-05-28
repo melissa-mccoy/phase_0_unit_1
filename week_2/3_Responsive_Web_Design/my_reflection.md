@@ -1,7 +1,12 @@
 # U1.W2: Responsive Design Reflection
 
 * What is responsive web design? Do you like it?  Do you think it's a good practice? Why or why not?
+	Answer: I definitely like the concept of media queries and having uniquely designed layouts for various screen sizes. I'm still not sold on using a completely fluid grid/layout. (Disclaimer: from my reading, I'm defining a responsive webpage design as something that has media queries and mostly fluid/liquid layout).
 * How do you think smartphones and tablets have changed web design? How do you think new technology will change web design in the future?
+	Answer: These devices have required websites to be more versatile and dynamic so that they can accomodate the infinite number of interfaces. As computers/laptops start to go "touch-screen" I think there will be a revolution in the "normal web" to accomodate touch-screen users as the number one priority. This will take some time but maybe in the next 10-15 years.
 * How do you think visually impaired people use the web? Can they? Should we design and development for them?
+	Answer: They get special software that translates the breadcrumbs that we should design our websites with (alt's for images for example). Yes, we should design/develop for them as, from a self-interest perspective, you'll have a larger audience and, from a societal-interest perspective, you'll provide access to information to some of those that need it most.
 * What ideas and concepts have resonated with you when learning about the web and design? What seems stupid or doesn't make sense?
+	Answer: The concept of having a mark-up language and a styling language makes sense. Many of the element and styling types make sense. What doesn't make sense to me is why there isn't 2 different positioning attributes - one that specifies how elements within the given element will be positioned and one that specificies how the given element will be positioned relative to its parent. I also don't understand why there isn't a "center" property value for several attributes - there are so many cases where you want to center things and you end up having to do a million work-arounds to make it work. 
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
+	Answer: treehouse videos on responsive design.
