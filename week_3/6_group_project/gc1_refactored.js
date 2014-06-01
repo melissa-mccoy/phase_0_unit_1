@@ -66,6 +66,14 @@ return true} };
   // test_number = "1."
 // INTIAL CODE (MATT): assert(sum instanceof Function , "The value of sum should be a function", "1.");
 // REFACTORED CODE (MELISSA):
+function sum (array) {
+  var sum = 0;
+  for (i=0;i<array.length;i++) {
+    sum = sum + array[i];
+  }
+  return sum;
+}
+
 assert(sum instanceof Function , "The value of sum should be a function", "1.");
 
 // PSEUDOCODE (KATIA): call assert with parameters:
@@ -90,6 +98,15 @@ assert(sum(oddLength) === 27,"The sum of oddLength is 27.", "2.");
   // test_number = "4."
 // INTIAL CODE (MATT):assert(average instanceof Function, "The value of average should be a function", "4.");
 // REFACTORED CODE (MELISSA):
+function average(array) {
+  var sum = 0;
+  for (i=0;i<array.length;i++) {
+    sum = sum + array[i];
+  }
+
+  return (sum/array.length);
+}
+
 assert(average instanceof Function, "The value of average should be a function", "4.");
 
 // PSEUDOCODE (KATIA): call assert with parameters:
@@ -115,6 +132,17 @@ assert(average(evenLength) === 5.375, "The average of evenLength is 5.375", "6."
   // test_number = "7."
 // INTIAL CODE (MATT): assert(median instanceof Function, "The value of median should be a function", "7.");
 // REFACTORED CODE (MELISSA):
+
+function median(array) {
+  var sortedArray = array.sort();
+  if (array.length%2 === 0) {
+    var midArray = [sortedArray[sortedArray.length/2],sortedArray[sortedArray.length/2-1]];
+    return average(midArray)
+  }
+  else {
+    return sortedArray[Math.floor(sortedArray.length/2)]
+  }
+}
 assert(median instanceof Function, "The value of median should be a function", "7.");
 
 // PSEUDOCODE (KATIA): call assert with parameters:
