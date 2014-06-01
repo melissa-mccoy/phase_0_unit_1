@@ -48,18 +48,18 @@ if (test === false)
 // PSEUDOCODE (KATIA): throw the string "ERROR: " + message
 // INTIAL CODE (MATT): throw "ERROR:" + message;
 // REFACTORED CODE (MELISSA):
-throw "ERROR:" + message;
+throw "ERROR:" + message; }
 
 // PSEUDOCODE (KATIA): print test_number + "true" to console
 // INTIAL CODE (MATT): console.log(test_number + "true");
 // REFACTORED CODE (MELISSA):
-console.log(test_number + "true");
+else {console.log(test_number + "true");
 
 // PSEUDOCODE (KATIA): return true
 // INTIAL CODE (MATT): return true} };
 // REFACTORED CODE (MELISSA):
-return true} };
-
+return true;}
+}
 // PSEUDOCODE (KATIA): call assert with parameters:
   // test = typeof "sum" is a function
   // message = "The value of sum should be a function"
