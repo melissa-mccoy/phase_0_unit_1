@@ -3,8 +3,10 @@
 // __________________________________________
 // Write your code below.
 
-
-
+var secretNumber = 7;
+var password = "just open the door";
+var allowedIn = false;
+var members = ["John","","","Mary"]
 
 
 
@@ -12,8 +14,8 @@
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
-// 
-// 
+// I love the concept of putting "checks" on your code to ensure things work properly. I would also create these in large excel workbooks/analysis files at work (well obviously not in code but there was a "check" tab where I had various checks).
+// I didn't use any other resources than reading the Newbies file.
 // 
 // 
 // 
