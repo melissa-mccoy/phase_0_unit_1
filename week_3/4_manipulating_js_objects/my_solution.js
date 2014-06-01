@@ -16,18 +16,36 @@ var terah = {
 
 // __________________________________________
 // Write your code below.
-
-
-
-
+// Define a variable adam and use object literal notation to assign this variable the value of a JavaScript Object object with no properties.
+  var adam = {};
+// Give adam a name property with the value "Adam".
+  adam.name = "Adam";
+// Add a spouse property to terah and assign it the value of adam.
+  terah.spouse = adam;
+// Change the value of the terah weight property to 125.
+  terah.weight = 125;
+// Remove the eyeColor property from terah.
+  terah.eyeColor = undefined;
+// Add a spouse property to adam and assign it the value of terah.
+  adam.spouse = terah;
+// Add a children property to terah and and use object literal notation to assign this variable the value of a JavaScript Object object with no properties
+  terah.children = {};
+// Add a carson property to the value of the terah children property and assign it the value of an object with the property name with a value of "Carson".
+  terah.children.carson = {name:"Carson"};
+// Add a carter property to the value of the terah children property and assign it the value of an object with the property name with a value of "Carter".
+  terah.children.carter = {name:"Carter"};
+// Add a colton property to the value of the terah children property and assign it the value of an object with the property name with a value of "Colton".
+  terah.children.colton = {name:"Colton"};
+// Add a children property to adam and assign it the value of terah children
+  adam.children = terah.children;
 
 
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
+// This definitely helped me understand use cases for nested objects/properties. I also solidified how to add and remove properties (I wasn't sure how to remove before this).
+// I didn't use any other resources. 
 // 
 // 
 // 
