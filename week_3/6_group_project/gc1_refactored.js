@@ -163,3 +163,9 @@ assert(median(oddLength) === 4, "The median of oddLength is 4", "8.");
  assert(median(evenLength)===5.5,"The median of evenLength is 5.5", "9.");
 
 
+//REFLECTION
+// I found refactoring somewhat challenging as there were was not much code to improve. I only found variable names and some coding errors.
+// I used the DBC provided resourcings on refactoring as well as some other powerpoints/webpages from googline 'refactoring javascript'
+// I felt good about the challenge in that I had to define sum, average, median functions and was able to do this without looking at notes.
+// It was somewhat tedious writing a user story from the code.
+
