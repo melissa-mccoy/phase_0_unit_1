@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<style>
+		body {
+			background-color:green;
+		}
+
+		#instructions {
+			position:absolute;
+			top:20px;
+			left:20px;
+			z-index:10;
+		}
+
+		#bbPlayer {
+			background-color:blue;
+			font-size:12px;
+			position:absolute;
+			top:500px;
+			left:550px;
+			z-index:5;
+			height:20px;
+			width:20px;
+		}
+
+		#homeBase {
+			background-color:black;
+			font-size:12px;
+			position:absolute;
+			top:400px;
+			left:550px;
+			z-index:1;
+			height:40px;
+			width:40px;
+		}
+
+		#firstBase {
+			background-color:black;
+			font-size:12px;
+			position:absolute;
+			top:300px;
+			left:650px;
+			z-index:1;
+			height:40px;
+			width:40px;
+		}
+
+		#secondBase {
+			background-color:black;
+			font-size:12px;
+			position:absolute;
+			top:200px;
+			left:550px;
+			z-index:1;
+			height:40px;
+			width:40px;
+		}
+
+		#thirdBase {
+			background-color:black;
+			font-size:12px;
+			position:absolute;
+			top:300px;
+			left:450px;
+			z-index:1;
+			height:40px;
+			width:40px;
+		}
+
+
+	</style>
+	<script type="text/javascript">
+
+ 		function leftArrowPressed() {
+            var bbPlayer = document.getElementById("bbPlayer");
+            bbPlayer.style.left = parseInt(bbPlayer.style.left) - 5 + 'px';
+        }
+
+        function rightArrowPressed() {
+            var bbPlayer = document.getElementById("image1");
+            bbPlayer.style.left = parseInt(bbPlayer.style.left) + 5 + 'px';
+        }
+
+        function upArrowPressed() {
+            var bbPlayer = document.getElementById("image1");
+            bbPlayer.style.top = parseInt(bbPlayer.style.top) - 5 + 'px';
+        }
+
+        function downArrowPressed() {
+            var bbPlayer = document.getElementById("image1");
+            bbPlayer.style.top = parseInt(bbPlayer.style.top) + 5 + 'px';
+        }
+
+        function moveSelection(event) {                    
+            switch (event.keyCode) {
+                case 37:
+                    leftArrowPressed();
+                break;
+
+                case 39:
+                    rightArrowPressed();
+                break;
+
+                case 38:
+                    upArrowPressed();
+                break;
+
+                case 40:
+                    downArrowPressed();
+                break;
+            }
+
+            function gameLoop()
+        	{
+            moveSelection();
+            setTimeout("gameLoop()",10);
+        	}
+
+        };
+	</script>
+</head>
+<body onload="gameLoop();" onkeydown="" onkeyup="moveSelection(event)">
+	<div id="instructions">
+		<h1>Lead the blue baseball player around the black bases.</h1>
+		<h2>Using the Arrow Keys</h2>
+	</div>
+
+	<div id="bbPlayer"></div>
+	
+	<div id="firstBase"></div>
+	
+	<div id="secondBase"></div>
+	
+	<div id="thirdBase"></div>
+	
+	<div id="homeBase"></div>
+</body>
+
+</html>
+<!DOCTYPE html>
